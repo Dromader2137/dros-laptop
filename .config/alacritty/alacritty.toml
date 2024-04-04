@@ -1,0 +1,27 @@
+import = ["/home/dr/.config/alacritty/colors.toml"]
+
+[font]
+size = 8
+
+[font.bold]
+family = "Mononoki Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Mononoki Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Mononoki Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Mononoki Nerd Font Mono"
+style = "Regular"
+
+[window]
+opacity = 1.0
+
+[window.padding]
+x = 15
+y = 15
