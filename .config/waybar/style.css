@@ -5,35 +5,35 @@
 }
 
 window#waybar {
-    background-color: rgba(40, 40, 40, 1.0);
-    color: #ebdbb2;
+    background-color: #1a1b26;
+    color: #a9b1d6;
     transition-property: background-color;
     transition-duration: .5s;
 	border-bottom: 2px;
 	border-style: solid;
-	border-color: #ebdbb2;
+	border-color: #a9b1d6;
 }
 
 #workspaces button {
-    color: #ebdbb2;
+    color: #a9b1d6;
 	border-radius: 0px;
 	padding: 0px 1px 0px 2px;
 }
 
 #workspaces button:hover {
-	background-color: #ebdbb2;
-	color: #282828;
+	background-color: #a9b1d6;
+	color: #1a1b26;
 	border-width: 1px;
-	border-color: #ebdbb2;
+	border-color: #a9b1d6;
 }
 
 #workspaces button.active {
-    background-color: #ebdbb2;
-	color: #282828;
+    background-color: #a9b1d6;
+	color: #1a1b26;
 }
 
 #workspaces button.urgent {
-    color: #cc241d;
+    color: #ff7a93;
 }
 
 #clock,
@@ -61,7 +61,7 @@ window#waybar {
 }
 
 #battery.critical:not(.charging) {
-    color: #cc241d;
+    color: #ff7a93;
 }
 
 #network {
@@ -70,7 +70,7 @@ window#waybar {
 }
 
 #tray {
-    color: #ebdbb2;
+    color: #a9b1d6;
 	margin-left: 20px;
 }
 
