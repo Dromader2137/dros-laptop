@@ -13,9 +13,9 @@ if status is-interactive
 	gsettings set org.gnome.desktop.interface cursor-theme 'Simp1e-Gruvbox-Dark'
 	gsettings set org.gnome.desktop.interface font-name 'Mononoki Nerd Font 11'  
 	
-	alias ls="exa -l --group-directories-first -s Extension"
-	alias la="exa -la --group-directories-first -s Extension"
-	alias ll="exa -la --group-directories-first -s Extension -T -L 3"
+	alias ls="eza -l --group-directories-first -s modified -r"
+	alias la="eza -la --group-directories-first -s modified -r"
+	alias ll="eza -la --group-directories-first -s modified -r -T -L 3"
 	alias gs="git status"
 	alias ga="git add"
 	alias gc="git commit -m"
