@@ -5,6 +5,7 @@ import QtQuick.Layouts 1.11
 Rectangle {
     property int sessionIndex: session.index
 
+
     width: 640
     height: 480
     LayoutMirroring.enabled: Qt.locale().textDirection == Qt.RightToLeft
@@ -63,6 +64,7 @@ Rectangle {
                             horizontalAlignment: Text.AlignCenter
                             color: "#a9b1d6"
                             font.bold: true
+    font.family: "Mononoki Nerd Font"
                             font.pixelSize: 80
                         }
 
@@ -73,6 +75,7 @@ Rectangle {
                             horizontalAlignment: Text.AlignCenter
                             color: "#a9b1d6"
                             font.bold: true
+    font.family: "Mononoki Nerd Font"
                             font.pixelSize: 30
                         }
 
@@ -98,6 +101,7 @@ Rectangle {
                             horizontalAlignment: Text.AlignHCenter
                             KeyNavigation.tab: pw_entry
                             text: userModel.lastUser
+    font.family: "Mononoki Nerd Font"
 
                             background: Rectangle {
                                 radius: 30
@@ -119,6 +123,7 @@ Rectangle {
                             horizontalAlignment: Text.AlignHCenter
                                         passwordCharacter: "•"
                                         echoMode: TextInput.Password
+    font.family: "Mononoki Nerd Font"
                             Keys.onPressed: {
                                 if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
                                     sddm.login(user_entry.text, pw_entry.text, sessionIndex);
@@ -215,6 +220,7 @@ Rectangle {
                                 text: "LOGIN"
                                 font.pixelSize: 20
                                 font.bold: true
+    font.family: "Mononoki Nerd Font"
                                 color: "#a9b1d6"
                             }
 
