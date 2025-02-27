@@ -1,7 +1,6 @@
-import = ["/home/dr/.config/alacritty/colors.toml"]
 
 [font]
-size = 8
+size = 14
 
 [font.bold]
 family = "Mononoki Nerd Font Mono"
@@ -25,3 +24,6 @@ opacity = 1.0
 [window.padding]
 x = 10
 y = 10
+
+[general]
+import = ["/home/dr/.config/alacritty/colors.toml"]

@@ -5,7 +5,9 @@ if status is-interactive
 
 	alias ls="eza -l --group-directories-first -s modified -r"
 	alias la="eza -la --group-directories-first -s modified -r"
-	alias ll="eza -la --group-directories-first -s modified -r -T -L 3"
+	alias ll="eza -l --group-directories-first -s modified -r -T -L 3"
+	alias lla="eza -la --group-directories-first -s modified -r -T -L 3"
+
 	alias gs="git status"
 	alias ga="git add"
 	alias gc="git commit -m"
@@ -15,6 +17,10 @@ if status is-interactive
 	alias gl="git log --graph --oneline --all"
 	alias gsw="git switch"
 	alias gcl="git clone"
+
+	alias wifick="nmcli d w connect"
+	alias wificu="nmcli d w connect --ask"
+	alias wifis="nmcli d w"
 	
 	contains $HOME/.cargo/bin/ $fish_user_paths; or set -Ua fish_user_paths $HOME/.cargo/bin/
 	contains $HOME/.local/bin/ $fish_user_paths; or set -Ua fish_user_paths $HOME/.local/bin/

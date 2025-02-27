@@ -134,6 +134,10 @@ by Miguel Avila
 }
 
 /* Url Bar  */
+#urlbar {
+  text-align: center;
+}
+
 #urlbar-input-container {
   background-color: var(--sfsecondary) !important;
   border: 0px solid rgba(0, 0, 0, 0) !important;
@@ -187,12 +191,15 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #PanelUI-menu-button,
 #alltabs-button,
 #unified-extensions-button,
+#identity-box,
+.titlebar-spacer,
 .tab-secondary-label {
   display: none !important;
 }
 
 .titlebar-buttonbox-container {
   display: none !important;
+  margin-right: 12px !important;
 }
 
 .urlbarView-url {

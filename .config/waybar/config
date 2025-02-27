@@ -1,9 +1,9 @@
 {
     "layer": "top", // Waybar at top layer
-    "height": 27, // Waybar height (to be removed for auto height)
+    "height": 28, // Waybar height (to be removed for auto height)
     "spacing": 4, // Gaps between modules (4px)
-    "modules-left": ["clock"],
-    "modules-center": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
     "modules-right": ["tray", "battery", "network"],
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -21,42 +21,12 @@
 			"9": [],
 		},
     },
-	"mpd": {
-		"format": "{stateIcon}  {artist} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})  ",
-		"format-disconnected": "Disconnected  ",
-		"format-stopped": "Stopped  ",
-		"interval": 1,
-		"state-icons": {
-			"paused": "",
-        	"playing": ""
-    	},
-        "tooltip": false
-	},
 	"tray": {
         "spacing": 5
     },
     "clock": {
-        "format": "{:%H:%M %Y-%m-%d}"
-    },
-    "cpu": {
-        "format": "  {usage}%",
+        "format": "{:%H:%M %Y-%m-%d}",
         "tooltip": false
-    },
-    "memory": {
-        "format": "  {}%"
-    },
-    "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
-    },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
         "states": {
@@ -67,12 +37,14 @@
         "format-charging": "  {capacity}%",
         "format-plugged": "  {capacity}%",
         "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
     },
     "network": {
         "format-wifi": "  {essid}",
         "format-ethernet": "󰈀  Ethernet",
-        "format-disconnected": "  󰈀  Disconnected",
+        "format-disconnected": "Disconnected",
+        "tooltip": false
     },
 }
 
