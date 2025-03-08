@@ -18,9 +18,10 @@ if status is-interactive
 	alias gsw="git switch"
 	alias gcl="git clone"
 
-	alias wifick="nmcli d w connect"
-	alias wificu="nmcli d w connect --ask"
-	alias wifis="nmcli d w"
+	alias mount-android="mtpfs -o allow_other"
+	alias pair-ios="idevicepair pair"
+	alias verify-ios="idevicepair validate"
+	alias mount-ios="ifuse"
 	
 	contains $HOME/.cargo/bin/ $fish_user_paths; or set -Ua fish_user_paths $HOME/.cargo/bin/
 	contains $HOME/.local/bin/ $fish_user_paths; or set -Ua fish_user_paths $HOME/.local/bin/
