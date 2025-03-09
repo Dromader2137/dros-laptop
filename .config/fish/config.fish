@@ -18,7 +18,7 @@ if status is-interactive
 	alias gsw="git switch"
 	alias gcl="git clone"
 
-	alias mount-android="mtpfs -o allow_other"
+	alias mount-android="jmtpfs"
 	alias pair-ios="idevicepair pair"
 	alias verify-ios="idevicepair validate"
 	alias mount-ios="ifuse"
