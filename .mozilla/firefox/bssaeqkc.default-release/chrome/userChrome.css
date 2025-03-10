@@ -175,22 +175,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 }
 
 /* Toolbar  */
-#tracking-protection-icon-container,
-#urlbar-zoom-button,
-#star-button-box,
-#pageActionButton,
-#pageActionSeparator,
-#tabs-newtab-button,
-#back-button,
-#PanelUI-button,
-#forward-button,
-#reload-button,
-#stop-reload-button,
-#tabs-newtab-button,
-#downloads-button,
-#PanelUI-menu-button,
 #alltabs-button,
-#unified-extensions-button,
 #identity-box,
 .titlebar-spacer,
 .tab-secondary-label {
